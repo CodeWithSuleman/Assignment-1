@@ -1,0 +1,15 @@
+void main() {
+ print("Robert's Marksheet");
+  int engMarks =78,mathMarks =45,phyMarks =62;
+  var obtainedMarks = engMarks + mathMarks + phyMarks;
+  var totalMarks = 300;
+  var percentage = obtainedMarks/totalMarks*100  ;
+  print('English: $engMarks');
+  print('Math: $mathMarks');
+  print('Physics: $phyMarks');
+ print('Obtained Marks: $obtainedMarks');
+ print('Total Marks: $totalMarks '); 
+print('Percentage: ${percentage.toStringAsFixed(2)}' );
+} 
+
+
